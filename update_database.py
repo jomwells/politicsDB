@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # this script would be run as part of the initialisation of the web server, its purpose is to scrape the web, build a list of all new articles
-# (not currently in the database) and scan their body for any mention of a sitting MP, having determined those that mention politicians, their
+# (not currently in the database) and scan their body for any mention of a sitting MP, having determined those that mention politicians, the
 # rest are scrapped, and those remaining are added to an SQL database along with references to those mentioned for viewing with a Flask web server
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
